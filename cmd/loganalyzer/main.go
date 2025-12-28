@@ -8,7 +8,7 @@ import (
 	"github.com/malanavi/loganalyzer/internal/reader"
 )
 
-const version = "v0.1.0"
+var version = "dev"
 
 const (
 	helpCommand    = "help"

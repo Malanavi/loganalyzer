@@ -52,7 +52,7 @@ Log lines that do not match any known prefix are counted as Total entries but ar
 ### Go install
 
 ```bash
-go install github.com/malanavi/loganalyzer/cmd/loganalyzer@v0.1.0
+go install github.com/malanavi/loganalyzer/cmd/loganalyzer@v0.1.2
 ```
 
 ### Install from source
