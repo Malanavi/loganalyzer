@@ -8,18 +8,12 @@ import (
 	"github.com/malanavi/loganalyzer/internal/reader"
 )
 
-var version = "dev"
-
 const (
 	helpCommand    = "help"
 	statsCommand   = "stats"
 	errorsCommand  = "errors"
 	topCommand     = "top"
 	versionCommand = "version"
-)
-
-const (
-	limitPrefix = "--limit="
 )
 
 func main() {
@@ -41,7 +35,7 @@ func run() error {
 		return nil
 	}
 	if command == versionCommand {
-		fmt.Println(version)
+		printVersion()
 		return nil
 	}
 
