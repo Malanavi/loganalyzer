@@ -44,26 +44,29 @@ Log lines that do not match any known prefix are counted as Total entries but ar
 
 ## Installation
 
-### Build from source
-
-To build the binary yourself, you need Go installed locally.
-
-#### Requirements
+### Requirements
 
 - Go 1.18 or newer
+- `$GOBIN` (usually `$HOME/go/bin`) must be in your `PATH`
 
-#### Build
+### Go install
 
-Clone the repository and build the binary locally.
+```bash
+go install github.com/malanavi/loganalyzer/cmd/loganalyzer@v0.1.0
+```
+
+### Install from source
+
+Clone the repository and install the binary locally.
 
 ```bash
 git clone https://github.com/Malanavi/loganalyzer.git
 cd loganalyzer
-go build -o loganalyzer ./cmd/loganalyzer
-./loganalyzer help
+go install ./cmd/loganalyzer
+loganalyzer help
 ```
 
-The resulting `loganalyzer` binary can then be moved to any directory included in your PATH.
+The binary will be installed into `$GOBIN` (or `$GOPATH/bin` if `$GOBIN` is not set) and available as `loganalyzer`.
 
 ## How to Use
 
