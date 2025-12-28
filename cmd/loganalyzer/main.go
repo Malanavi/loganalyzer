@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Malanavi/loganalyzer/internal/reader"
+	"github.com/malanavi/loganalyzer/internal/reader"
 )
 
 const version = "v0.1.0"

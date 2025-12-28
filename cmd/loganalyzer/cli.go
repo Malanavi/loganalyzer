@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/Malanavi/loganalyzer/internal/analyzer"
+	"github.com/malanavi/loganalyzer/internal/analyzer"
 )
 
 func printInfo() {
