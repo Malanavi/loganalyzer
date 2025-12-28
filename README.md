@@ -6,10 +6,12 @@
 loganalyzer is a command-line tool for analyzing application log files.
 
 It provides a simple and predictable interface for inspecting logs, extracting basic statistics, identifying error entries, and finding the most frequently occurring log messages.
+
 ## Table of Contents
 
 - [Features](#features)
 - [Quality](#quality)
+- [Supported log format](#supported-log-format)
 - [Installation](#installation)
 - [How to Use](#how-to-use)
 - [Project Status](#project-status)
